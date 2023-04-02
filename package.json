@@ -1,0 +1,24 @@
+{
+  "name": "angela-v1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "type": "module",
+  "scripts": {
+    "test": "jest",
+    "sass": "sass --watch layout/sass/main.scss:layout/css/style.css"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/preset-env": "^7.18.2",
+    "@testing-library/dom": "^8.13.0",
+    "@testing-library/jest-dom": "^5.16.4",
+    "@types/jest": "^28.1.1",
+    "@types/testing-library__jest-dom": "^5.14.3",
+    "jest": "^28.1.1",
+    "jest-environment-jsdom": "^28.1.1",
+    "sass": "^1.52.1",
+    "timekeeper": "^2.2.0"
+  }
+}

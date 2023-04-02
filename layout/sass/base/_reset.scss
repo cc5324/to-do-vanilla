@@ -1,0 +1,46 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul,
+div {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: unset;
+  text-decoration: none;
+}
+
+a:hover {
+  color: unset;
+}
+
+ol,
+ul {
+  list-style-type: none;
+}
+
+textarea {
+  resize: none;
+}
+
+button,
+input,
+textarea {
+  border: none;
+  &:focus-visible {
+    outline: none;
+  }
+}

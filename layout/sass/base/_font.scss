@@ -1,0 +1,49 @@
+@use "./color";
+@use "./breakpoint";
+
+$fonts: "Roboto", sans-serif;
+
+.title-font {
+  font-family: $fonts;
+  font-size: 18px;
+  color: color.$black;
+
+  @include breakpoint.tablet {
+    font-size: 24px;
+  }
+}
+
+.subtitle-font {
+  font-family: $fonts;
+  font-size: 16px;
+  color: color.$black;
+
+  @include breakpoint.tablet {
+    font-size: 20px;
+  }
+}
+
+.paragraph-font {
+  font-family: $fonts;
+  font-size: 16px;
+  color: color.$black;
+}
+
+.remark-font {
+  font-family: $fonts;
+  font-size: 16px;
+  color: color.$gray-dark;
+}
+
+.placeholder-font {
+  font-family: $fonts;
+  font-size: 16px;
+  color: color.$gray-dark;
+}
+
+.status-font {
+  font-family: $fonts;
+  font-style: italic;
+  font-size: 24px;
+  color: color.$gray;
+}

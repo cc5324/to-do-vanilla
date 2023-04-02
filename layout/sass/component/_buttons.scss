@@ -1,0 +1,22 @@
+@use "../base/font";
+@use "../base/color";
+@use "../base/breakpoint";
+
+@use "../animation/button.scss";
+
+.add_task {
+  width: 100%;
+  padding: 20px;
+
+  color: color.$gray-dark;
+
+  text-align: left;
+  font-family: font.$fonts;
+  font-size: 18px;
+
+  @include breakpoint.tablet {
+    font-size: 24px;
+  }
+
+  @extend .pressButton;
+}

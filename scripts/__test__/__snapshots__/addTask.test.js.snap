@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`測試新增任務 1`] = `
+"
+        <form class=\\"task\\" id=\\"1654819200000\\" draggable=\\"true\\">
+          <div class=\\"task_head\\">
+            <i class=\\"fas fa-ellipsis-v\\"></i>
+            <div class=\\"task_title\\">
+              <input type=\\"checkbox\\" name=\\"checkbox\\" id=\\"\\" aria-label=\\"check\\">
+              <input type=\\"text\\" name=\\"item\\" value=\\"\\" disabled=\\"\\">
+              <div class=\\"task_marker\\">
+                <i class=\\"far fa-solid fa-star task_marker_star\\"></i>
+                <i class=\\"fa fa-light fa-pen task_marker_pen\\"></i>
+              </div>
+            </div>
+            <div class=\\"task_hint\\">
+              <span class=\\"task_hint_deadline\\"><i class=\\"far fa-calendar-alt\\"></i>06/10</span>
+              <i class=\\"far fa-file fa-fw task_hint_file hidden\\"></i>
+              <i class=\\"far fa-comment-dots task_hint_comment hidden\\"></i>
+            </div>
+          </div>
+          <div class=\\"task_body hidden\\">
+            <div class=\\"task_detail\\">
+              <div class=\\"task_detail_item deadline\\">
+                <div class=\\"task_detail_subtitle\\">
+                  <i class=\\"far fa-calendar-alt\\"></i>
+                  <span class=\\"subtitle-font\\">Deadline</span>
+                </div>
+                <div class=\\"task_detail_inputs\\">
+                  <input type=\\"date\\" name=\\"date\\" value=\\"\\">
+                  <input type=\\"time\\" name=\\"time\\" value=\\"\\">
+                </div>
+              </div>
+              <div class=\\"task_detail_item file\\">
+                <div class=\\"task_detail_subtitle\\">
+                  <i class=\\"far fa-file\\"></i>
+                  <span class=\\"subtitle-font\\">File</span>
+                </div>
+                <div class=\\"task_detail_inputs\\">
+                  <div class=\\"file_name\\"><div></div></div>
+                  <label class=\\"file_custom\\">
+                    <input type=\\"file\\" name=\\"file\\" value=\\"\\">
+                    <span class=\\"file_custom_input\\">+</span>
+                  </label>
+                </div>
+              </div>
+              <div class=\\"task_detail_item comment\\">
+                <div class=\\"task_detail_subtitle\\">
+                  <i class=\\"far fa-comment-dots\\"></i>
+                  <span class=\\"subtitle-font\\">Comment</span>
+                </div>
+                <div class=\\"task_detail_inputs\\">
+                  <textarea name=\\"comment\\" id=\\"\\" cols=\\"30\\" rows=\\"10\\"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class=\\"task_button_group\\">
+              <button type=\\"reset\\" name=\\"cancel\\">X Cancel</button>
+              <button type=\\"submit\\" name=\\"save\\">+ Save</button>
+            </div>
+          </div>
+        </form>
+      "
+`;
+
+exports[`測試新增任務 提交後新增任務卡片 1`] = `
+"
+        <form class=\\"task\\" id=\\"1654819200000\\" draggable=\\"true\\">
+          <div class=\\"task_head\\">
+            <i class=\\"fas fa-ellipsis-v\\"></i>
+            <div class=\\"task_title\\">
+              <input type=\\"checkbox\\" name=\\"checkbox\\" id=\\"\\" aria-label=\\"check\\">
+              <input type=\\"text\\" name=\\"item\\" value=\\"\\" disabled=\\"\\">
+              <div class=\\"task_marker\\">
+                <i class=\\"far fa-solid fa-star task_marker_star\\"></i>
+                <i class=\\"fa fa-light fa-pen task_marker_pen\\"></i>
+              </div>
+            </div>
+            <div class=\\"task_hint\\">
+              <span class=\\"task_hint_deadline hidden\\"><i class=\\"far fa-calendar-alt\\"></i> </span>
+              <i class=\\"far fa-file fa-fw task_hint_file hidden\\"></i>
+              <i class=\\"far fa-comment-dots task_hint_comment hidden\\"></i>
+            </div>
+          </div>
+          <div class=\\"task_body hidden\\">
+            <div class=\\"task_detail\\">
+              <div class=\\"task_detail_item deadline\\">
+                <div class=\\"task_detail_subtitle\\">
+                  <i class=\\"far fa-calendar-alt\\"></i>
+                  <span class=\\"subtitle-font\\">Deadline</span>
+                </div>
+                <div class=\\"task_detail_inputs\\">
+                  <input type=\\"date\\" name=\\"date\\" value=\\"\\">
+                  <input type=\\"time\\" name=\\"time\\" value=\\"\\">
+                </div>
+              </div>
+              <div class=\\"task_detail_item file\\">
+                <div class=\\"task_detail_subtitle\\">
+                  <i class=\\"far fa-file\\"></i>
+                  <span class=\\"subtitle-font\\">File</span>
+                </div>
+                <div class=\\"task_detail_inputs\\">
+                  <div class=\\"file_name\\"><div></div></div>
+                  <label class=\\"file_custom\\">
+                    <input type=\\"file\\" name=\\"file\\" value=\\"\\">
+                    <span class=\\"file_custom_input\\">+</span>
+                  </label>
+                </div>
+              </div>
+              <div class=\\"task_detail_item comment\\">
+                <div class=\\"task_detail_subtitle\\">
+                  <i class=\\"far fa-comment-dots\\"></i>
+                  <span class=\\"subtitle-font\\">Comment</span>
+                </div>
+                <div class=\\"task_detail_inputs\\">
+                  <textarea name=\\"comment\\" id=\\"\\" cols=\\"30\\" rows=\\"10\\"></textarea>
+                </div>
+              </div>
+            </div>
+            <div class=\\"task_button_group\\">
+              <button type=\\"reset\\" name=\\"cancel\\">X Cancel</button>
+              <button type=\\"submit\\" name=\\"save\\">+ Save</button>
+            </div>
+          </div>
+        </form>
+      "
+`;

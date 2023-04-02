@@ -1,0 +1,52 @@
+@use "../base/color";
+@use "../base/font";
+@use "../base/breakpoint";
+
+nav {
+  display: flex;
+  justify-content: center;
+
+  background: color.$blue;
+
+  ul {
+    display: flex;
+    flex: 1 0 auto;
+    justify-content: space-around;
+
+    @include breakpoint.tablet {
+      max-width: 700px;
+    }
+  }
+
+  li {
+    display: block;
+
+    padding: 15px;
+
+    @include breakpoint.tablet {
+      padding: 25px;
+    }
+
+    border: 3px solid color.$blue;
+    color: color.$blue-dark;
+
+    &:hover {
+      color: color.$white;
+    }
+
+    &.active {
+      border-bottom: 3px solid color.$blue-dark;
+      color: color.$white;
+    }
+
+    font-family: font.$fonts;
+    text-transform: capitalize;
+    font-size: 18px;
+
+    @include breakpoint.tablet {
+      font-size: 24px;
+    }
+
+    cursor: pointer;
+  }
+}

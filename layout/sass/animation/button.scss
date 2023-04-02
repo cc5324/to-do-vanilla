@@ -1,0 +1,17 @@
+// button {
+//   transform: scale(1);
+//   transition: 0.2s all;
+
+//   &:active {
+//     transform: scale(0.95);
+//   }
+// }
+
+.pressButton {
+  transform: scale(1);
+  transition: 0.2s all;
+
+  &:active {
+    transform: scale(0.95);
+  }
+}

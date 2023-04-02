@@ -1,0 +1,19 @@
+.hidden {
+  display: none;
+}
+
+.trigger-enter .dropdown {
+  display: block;
+}
+
+.trigger-enter-active .dropdown {
+  opacity: 1;
+}
+
+.trigger-enter {
+  display: block;
+}
+
+.trigger-enter-active {
+  opacity: 1;
+}

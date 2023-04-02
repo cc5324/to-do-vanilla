@@ -1,0 +1,11 @@
+@use "./base/reset";
+@use "./base/font";
+@use "./base/utilities.scss";
+
+//layout
+@use "./layout/header";
+@use "./layout/main";
+
+body {
+  min-width: 375px;
+}
